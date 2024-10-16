@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 // Route to fetch JSON data from Render
 app.get('/api/json', async (req, res) => {
     try {
-        const response = await axios.get('https://json-xml-hosting2.onrender.com/jsonData.json');
+        const response = await axios.get('https://raw.githubusercontent.com/JohnChristian-JC/data_representation/main/jsonData.json');
         res.json(response.data);
     } catch (error) {
         res.status(500).send('Error fetching JSON data');
