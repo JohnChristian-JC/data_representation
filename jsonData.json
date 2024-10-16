@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "name": "Smartphone",
+            "category": "Electronics",
+            "price": 299.99,
+            "stock": 25,
+            "description": "This is a description of Product 1",
+            "imageURL": "https://example.com/smartphone.png"
+        },
+        {
+            "name": "Laptop",
+            "category": "Electronics",
+            "price": 799.99,
+            "stock": 15,
+            "description": "This is a description of Product 2",
+            "imageURL": "https://example.com/laptop.png"
+        }
+    ]
+}
